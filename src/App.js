@@ -3,7 +3,7 @@ import Routing from './components/Routing';
 
 function App() {
   return (
-    <div className="App p-3">
+    <div className="App">
       <Routing />
     </div>
   );

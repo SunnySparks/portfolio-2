@@ -7,7 +7,7 @@ const Navbar = () => {
   const [checked, setChecked] = useState(false);
   return (
     <div>
-      <div className="cont">
+      <div className="cont m-3">
         <div className="navigation">
           <input
             type="checkbox"

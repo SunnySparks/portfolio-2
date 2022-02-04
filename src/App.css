@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

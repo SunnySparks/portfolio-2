@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+.display-font {
+  font-family: 'Bowlby One SC', cursive;
+}
+
 .bg {
-  height: 100vh;
-  background-image: url('./bg.png');
+  /* background-image: url('./bg2.png'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.display-container {
+  position: relative;
+  top: 100px;
+  left: 180px;
+}
+
+.left,
+.right {
+  height: 100vh;
+  width: 100%;
+}
+
+.right {
+  background-color: rgb(224, 113, 158);
 }

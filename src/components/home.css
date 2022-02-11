@@ -30,3 +30,15 @@
 h1 {
   text-shadow: 5px -5px 0 #fff, -5px 0 0 #fff, 0 5px 0 #fff, 0 -5px 0 #fff, 5px 5px #fff, -5px -5px 0 #fff, 5px -5px 0 #fff, -5px 5px 0 #fff;
 }
+
+.icon-link {
+  color: black;
+}
+
+#insta:hover {
+  color: white;
+}
+
+#git-h:hover {
+  color:rgb(224, 113, 158);
+}

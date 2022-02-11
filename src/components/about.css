@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+body {
+  overflow-x: hidden;
+}
+
 .gamer-font {
   font-family: 'Press Start 2P', cursive;
 }
@@ -9,7 +13,7 @@ ul {
 }
 
 .bg-img {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('./bg2.png');
   background-position: center;
   background-size: cover;
@@ -17,16 +21,16 @@ ul {
 }
 
 .text-cont {
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
 .middle {
-  max-width: 300px;
+  width: 600px;
   background: rgba(247, 245, 250, 0.947);
 }
 
 .about-cont {
   max-height: 200px;
-  width: 300px;
+  width: 250px;
   background: rgba(247, 245, 250, 0.947);
 }

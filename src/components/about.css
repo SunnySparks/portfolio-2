@@ -4,6 +4,10 @@
   font-family: 'Press Start 2P', cursive;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .bg-img {
   height: 100vh;
   background-image: url('./bg2.png');
@@ -18,5 +22,11 @@
 
 .middle {
   max-width: 300px;
-  background: rgba(247, 245, 250, 0.605);
+  background: rgba(247, 245, 250, 0.947);
+}
+
+.about-cont {
+  max-height: 200px;
+  width: 300px;
+  background: rgba(247, 245, 250, 0.947);
 }

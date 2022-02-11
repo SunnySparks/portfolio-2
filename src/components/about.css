@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.gamer-font {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.bg-img {
+  height: 100vh;
+  background-image: url('./bg2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-cont {
+  min-height: 100vh;
+}
+
+.middle {
+  max-width: 300px;
+  background: rgba(247, 245, 250, 0.605);
+}

@@ -8,7 +8,7 @@ const About = () => (
           Born in 1990 in Oaxaca, Mexico. I am a full stack web developer with a passion for front end and Web UI Design. I'm never scared of making mistakes, that always guides me to learn new things.
         </div>
       </div>
-      <div className="d-flex flex-row">
+      <div className="d-flex flex-row skills">
         <div className="about-cont m-2 p-2">
           <h4>Languages</h4>
           <ul className="text-center pl-0">

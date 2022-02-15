@@ -34,3 +34,20 @@ ul {
   width: 250px;
   background: rgba(247, 245, 250, 0.947);
 }
+
+.skills {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

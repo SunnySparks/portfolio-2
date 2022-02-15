@@ -43,7 +43,6 @@ ul {
   animation-fill-mode: backwards;
 }
 
-/* Glow In */
 .animate.glow {
   animation-name: animate-glow;
   animation-timing-function: ease;
@@ -70,4 +69,8 @@ ul {
 }
 .delay-3 {
   animation-delay: 0.8s;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .animate { animation: none !important; }
 }

@@ -28,7 +28,7 @@
   background-image: url('./bg2.png');
 }
 
-h1 {
+.display-1 {
   text-shadow: 5px -5px 0 #fff, -5px 0 0 #fff, 0 5px 0 #fff, 0 -5px 0 #fff, 5px 5px #fff, -5px -5px 0 #fff, 5px -5px 0 #fff, -5px 5px 0 #fff;
 }
 

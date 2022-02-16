@@ -4,14 +4,13 @@ import { faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-
 import acnh from './media/acnh.png';
 
 const Portfolio = () => (
-  <div className="bg-img">
-    <div>Portfolio</div>
-    <div>
-      <h1>Front-End Projects</h1>
+  <div className="bg-img pt-5">
+    <div className="pt-2">
+      <h1 className="gamer-font">Front-End Projects</h1>
       <ul>
-        <li>
+        <li className="project-cont m-3 p-3">
           <h3>ACNH Metrics</h3>
-          <div className="d-flex flex-row text-center">
+          <div className="d-flex flex-row text-center align-items-center">
             <img src={acnh} className='img-container'></img>
             <div className="project-text mx-3 p-2">
               <p>This was my ReactJS Capstone project. The purpose of this project was to build an entire react application that consumed data from the Animal Crossing: New horizons API. This application consists of 3 different pages: Villagers, Fossils and Art</p>
@@ -21,7 +20,7 @@ const Portfolio = () => (
                 <h2><FontAwesomeIcon icon={faCss3Alt} /></h2>
                 <h2><FontAwesomeIcon icon={faJs} /></h2>
                 <h2><FontAwesomeIcon icon={faReact} /></h2>
-                <button class="button button--telesto"><span><span>Verify</span></span></button>
+                <button class="button button--telesto"><span><span>See the project</span></span></button>
               </div>
             </div>
           </div>
@@ -29,7 +28,7 @@ const Portfolio = () => (
       </ul>
     </div>
     <div>
-      <h1>Full-Stack and Back-End Projects</h1>
+      <h1 className="gamer-font">Full-Stack and Back-End Projects</h1>
       <ul>
         <li></li>
       </ul>

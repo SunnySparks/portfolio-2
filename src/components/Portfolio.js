@@ -21,6 +21,7 @@ const Portfolio = () => (
                 <h2><FontAwesomeIcon icon={faCss3Alt} /></h2>
                 <h2><FontAwesomeIcon icon={faJs} /></h2>
                 <h2><FontAwesomeIcon icon={faReact} /></h2>
+                <button class="button button--telesto"><span><span>Verify</span></span></button>
               </div>
             </div>
           </div>

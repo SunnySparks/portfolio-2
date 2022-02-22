@@ -6,11 +6,13 @@ import space from './media/space.png';
 import math from './media/math.png';
 import screen from './media/screen.png';
 import recipe from './media/recipe.png';
+import lint from './media/lint.jpeg';
+import ruby from './media/ruby.png';
 
 const Portfolio = () => (
   <div className="bg-pink pt-5">
     <div className="pt-2">
-      <h1 className="gamer-font text-white">Front-End Projects</h1>
+      <h1 className="gamer-font">Front-End Projects</h1>
       <ul>
         <li className="project-cont m-3 p-3">
           <h3>ACNH Metrics</h3>
@@ -98,9 +100,22 @@ const Portfolio = () => (
       </ul>
     </div>
     <div>
-      <h1 className="gamer-font text-white">Full-Stack and Back-End Projects</h1>
+      <h1 className="gamer-font">Full-Stack and Back-End Projects</h1>
       <ul>
-        <li></li>
+        <li className="project-cont m-3 p-3">
+        <h3>A Ruby Lint</h3>
+          <div className="d-flex flex-row text-center align-items-center">
+            <img src={lint} className='img-container'></img>
+            <div className="project-text mx-3 p-2">
+              <p>This is a code lint created in Ruby language. The purpose of this app is to detect unclosed parentheses, curly braces, and square brackets inside a file code of your choice. This is a program that was created as an accreditation of mastery in the Ruby language.</p>
+              <div className="d-flex flex-column ml-auto mr-auto">
+                <p>Built With:</p>
+                <img src={ruby} className='tech-icon ml-auto mr-auto mb-2'></img>
+                <a href="https://github.com/SunnySparks/Recipes-book"><button class="button button--telesto"><span><span>See the project</span></span></button></a>
+              </div>
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>

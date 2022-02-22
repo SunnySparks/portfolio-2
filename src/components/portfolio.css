@@ -15,6 +15,10 @@
   background: rgba(247, 245, 250, 0.742);
 }
 
+.tech-icon {
+  height: 45px;
+}
+
 .button {
 	pointer-events: auto;
 	cursor: pointer;

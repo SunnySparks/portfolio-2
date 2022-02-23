@@ -1,6 +1,6 @@
 import './portfolio.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-icons' 
+import { faHtml5, faCss3Alt, faJs, faReact, faBootstrap } from '@fortawesome/free-brands-svg-icons' 
 import acnh from './media/acnh.png';
 import space from './media/space.png';
 import math from './media/math.png';
@@ -8,6 +8,8 @@ import screen from './media/screen.png';
 import recipe from './media/recipe.png';
 import lint from './media/lint.jpeg';
 import ruby from './media/ruby.png';
+import life from './media/life.png';
+import rails from './media/rails.png';
 
 const Portfolio = () => (
   <div className="bg-pink pt-5">
@@ -26,6 +28,7 @@ const Portfolio = () => (
                 <h2><FontAwesomeIcon icon={faCss3Alt} /></h2>
                 <h2><FontAwesomeIcon icon={faJs} /></h2>
                 <h2><FontAwesomeIcon icon={faReact} /></h2>
+                <h2><FontAwesomeIcon icon={faBootstrap} /></h2>
                 <a href="https://github.com/SunnySparks/acnh-metrics"><button class="button button--telesto"><span><span>See the project</span></span></button></a>
               </div>
             </div>
@@ -43,6 +46,7 @@ const Portfolio = () => (
                 <h2><FontAwesomeIcon icon={faCss3Alt} /></h2>
                 <h2><FontAwesomeIcon icon={faJs} /></h2>
                 <h2><FontAwesomeIcon icon={faReact} /></h2>
+                <h2><FontAwesomeIcon icon={faBootstrap} /></h2>
                 <a href="https://github.com/SunnySparks/spaceships"><button class="button button--telesto"><span><span>See the project</span></span></button></a>
               </div>
             </div>
@@ -60,6 +64,7 @@ const Portfolio = () => (
                 <h2><FontAwesomeIcon icon={faCss3Alt} /></h2>
                 <h2><FontAwesomeIcon icon={faJs} /></h2>
                 <h2><FontAwesomeIcon icon={faReact} /></h2>
+                <h2><FontAwesomeIcon icon={faBootstrap} /></h2>
                 <a href="https://github.com/SunnySparks/Math-Magicians"><button class="button button--telesto"><span><span>See the project</span></span></button></a>
               </div>
             </div>
@@ -76,6 +81,7 @@ const Portfolio = () => (
                 <h2><FontAwesomeIcon icon={faHtml5} /></h2>
                 <h2><FontAwesomeIcon icon={faCss3Alt} /></h2>
                 <h2><FontAwesomeIcon icon={faJs} /></h2>
+                <h2><FontAwesomeIcon icon={faBootstrap} /></h2>
                 <a href="https://github.com/SunnySparks/Leaderboard-JS"><button class="button button--telesto"><span><span>See the project</span></span></button></a>
               </div>
             </div>
@@ -92,6 +98,7 @@ const Portfolio = () => (
                 <h2><FontAwesomeIcon icon={faHtml5} /></h2>
                 <h2><FontAwesomeIcon icon={faCss3Alt} /></h2>
                 <h2><FontAwesomeIcon icon={faJs} /></h2>
+                <h2><FontAwesomeIcon icon={faBootstrap} /></h2>
                 <a href="https://github.com/SunnySparks/Recipes-book"><button class="button button--telesto"><span><span>See the project</span></span></button></a>
               </div>
             </div>
@@ -111,7 +118,37 @@ const Portfolio = () => (
               <div className="d-flex flex-column ml-auto mr-auto">
                 <p>Built With:</p>
                 <img src={ruby} className='tech-icon ml-auto mr-auto mb-2'></img>
-                <a href="https://github.com/SunnySparks/Recipes-book"><button class="button button--telesto"><span><span>See the project</span></span></button></a>
+                <a href="https://github.com/SunnySparks/Ruby-capstone"><button class="button button--telesto"><span><span>See the project</span></span></button></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="project-cont m-3 p-3">
+        <h3>Lifestyle Articles</h3>
+          <div className="d-flex flex-row text-center align-items-center">
+            <img src={life} className='img-container'></img>
+            <div className="project-text mx-3 p-2">
+              <p>A Blog App that posts articles related to lifestyle. You can upload a cover picture, write some text about it, categorize it, and if you are logged in, vote for your favorites.</p>
+              <div className="d-flex flex-column ml-auto mr-auto">
+                <p>Built With:</p>
+                <img src={ruby} className='tech-icon ml-auto mr-auto mb-2'></img>
+                <img src={rails} className='tech-icon ml-auto mr-auto mb-2'></img>
+                <a href="https://github.com/SunnySparks/Lifestyle-articles"><button class="button button--telesto"><span><span>See the project</span></span></button></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li className="project-cont m-3 p-3">
+        <h3>Website backend</h3>
+          <div className="d-flex flex-row text-center align-items-center">
+            <img src={life} className='img-container'></img>
+            <div className="project-text mx-3 p-2">
+              <p>Backend service created with Ruby On Rails. It includes a database for users and also API endpoints </p>
+              <div className="d-flex flex-column ml-auto mr-auto">
+                <p>Built With:</p>
+                <img src={ruby} className='tech-icon ml-auto mr-auto mb-2'></img>
+                <img src={rails} className='tech-icon ml-auto mr-auto mb-2'></img>
+                <a href="https://github.com/SunnySparks/Lifestyle-articles"><button class="button button--telesto"><span><span>See the project</span></span></button></a>
               </div>
             </div>
           </div>
